@@ -1,0 +1,223 @@
+/*
+ Theme Name:   DelAgua Dashboard
+ Theme URI:    
+ Description:  DelAgua Dashboard Theme
+ Author:       Spencer Verdon
+ Author URI:   https://spencerverdon.com
+ Template:     stackable
+ Version:      1.1.35
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  stackablechild
+*/
+
+/* General */
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+tr.show{
+    display: table-row !important;
+}
+
+.smalllink{
+    font-size: .9rem;
+    color: #008de4;
+}
+
+/* Header */
+.site-header-wrapper{
+    width: calc(100% - 14vw);
+}
+
+/* Content */
+.content-area{
+    padding: 0 7vw;
+}
+
+.hentry-wrapper{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.hentry-wrapper .entry-header{
+    margin-bottom: 75px;
+}
+
+.entry-content a{
+	box-shadow: none !important;
+}
+
+/* Footer */
+.site-footer-wrapper{
+    width: calc(100% - 14vw);
+    max-width: calc(100% - 14vw);
+}
+
+/* Form Styling */
+.da-form label{
+    display: block;
+}
+
+.da-form-item{
+    margin-bottom: 30px;
+}
+
+.da-form-item > input, select{
+    width: auto;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 25%);
+
+    transition: all 250ms ease;
+}
+
+.da-form-item > textarea{
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 25%);
+
+    transition: all 250ms ease;
+}
+
+.da-form-item input:hover, .da-form-item select:hover, .da-form-item textarea:hover{
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 50%);
+}
+
+.da-form-item input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+p.alert{
+    color: red;
+    font-size: .8em;
+}
+
+/* Table Styling */
+.da-table th{
+    background-color: #008de4;
+    color: white;
+    padding: 16px;
+    border-width: 0;
+    font-weight: 300;
+    text-align: left;
+
+    transition: all 250ms ease;
+}
+
+.da-table th:hover{
+    background-color: #0082d3;
+}
+
+.da-table td{
+    padding: 16px;
+}
+
+.da-table tbody tr:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.da-edit-tools{
+    position: absolute;
+    background-color: #37393d;
+    font-size: .65em;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -37px;
+}
+
+.da-edit-tools a{
+    color: rgb(209, 209, 209);
+    padding: 5px 8px;
+
+    transition: all 250ms ease;
+}
+
+.da-edit-tools a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.da-edit-tools:before{
+    position: absolute;
+    left: 50%;
+    content: '';
+    display: block;
+    margin-left: -7px;
+    border-top: 7px solid #37393d;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    bottom: -7px;
+}
+
+.button.excel-export{
+    background-color: #107c41;
+}
+
+/* Popup */
+#popup-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.popup{
+    z-index: 10000;
+    background-color: white;
+    border-radius: 25px;
+    width: 50vw;
+    height: auto;
+    position: fixed;
+    top: 18vh;
+    left: 25vw;
+    box-shadow: 0px 0px 16px rgba(0,0,0,.25);
+}
+
+.popup-wrapper{
+    padding: 3vw;
+}
+
+/* AJAX Loader */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('https://dash-delagua.com/wp-content/uploads/2022/04/da-loading.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading .modal {
+    display: block;
+    overflow: hidden; 
+}
+
+/* Bennie Uploads */
+div.alert-danger{
+    display: none !important;
+}
+
+/* TID Adder */
+#tidadder .region.show{
+    display: none !important;
+}
+
+#tidadder.show-regions .region.show{
+    display: block !important;
+}
