@@ -1,5 +1,7 @@
 <?php 
 
+die('hello world');
+
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
@@ -39,8 +41,6 @@ foreach($regions as $region){
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
 $filepath = 'chw-templates/' . $filename;
-
-die($filepath);
 
 // Load Template
 $template = 'Team_Member_Adder_CHW.xlsx';
