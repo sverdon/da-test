@@ -11,6 +11,7 @@
     $target = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/uploads/' . $realFilename;
     copy($file, $target);
 
+    die('hello');
     // load phpspreadsheet
     require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
