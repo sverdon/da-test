@@ -1,12 +1,12 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "dssddhe1";
-$dbpass = "hashHASH%%";
-$db = "formsddsswd";
+$dbhost = "da.chmgprnkcpni.eu-west-2.rds.amazonaws.com";
+$dbuser = "dr9YfQp3";
+$dbpass = "mPQkGL0vdU0IW7HjQog6";
+$db = "dbthezxpnokgxv";
 
 if( isset($_GET['testing']) || isset($_POST['testing']) ){
-    $db = "formsddsswd";
+    $db = "dbthezxpnokgxv";
 }
 
 $conn_da = mysqli_connect($dbhost, $dbuser, $dbpass, $db);
