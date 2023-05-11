@@ -2,8 +2,8 @@
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
-echo 'hello world';
-return;
+echo json_encode('hello');
+exit;
 
 $regions = $_POST['region'];
 $country = $regions[1];
