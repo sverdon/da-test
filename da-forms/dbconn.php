@@ -1,6 +1,6 @@
 <?php
 
-$dbhost = "localhost";
+$dbhost = "test";
 $dbuser = "dssddhe1";
 $dbpass = "hashHASH%%";
 $db = "formsddsswd";
