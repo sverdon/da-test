@@ -21,6 +21,8 @@
     $highestRow = $sheet->getHighestDataRow();
     $rows = $sheet->rangeToArray("B2:Y$highestRow", NULL, TRUE, TRUE, TRUE);
 
+    print_r($rows);
+
     // moved database connection beneath rangeToArray
     // rangeToArray was taking a long time and it timed out the database connection
     require $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
