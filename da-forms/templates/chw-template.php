@@ -6,16 +6,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 $regions = $_POST['region'];
 $country = $regions[1];
 $parentID = end($regions);
-$templateUrl = $_POST['template-url'] . '&download=1';
 
-// $context = stream_context_create(
-//     array(
-//         'http' => array(
-//             'follow_location' => false
-//         )
-//     )
-// );
-// $file = file_put_contents('chw_template.xlsx', file_get_contents($templateUrl, false, $context));
+print_r($regions);
 
 // Get Final Sub-Regions
 $sql = "SELECT GID, RegionName AS Location
