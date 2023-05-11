@@ -1,0 +1,38 @@
+[14-Dec-2022 06:02:19 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1265
+[14-Dec-2022 06:02:22 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 387
+[14-Dec-2022 06:02:23 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1265
+[14-Dec-2022 06:02:24 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Collection/Cells.php on line 95
+[14-Dec-2022 06:02:26 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1284
+[14-Dec-2022 06:02:26 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 387
+[14-Dec-2022 06:06:51 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php on line 5188
+[14-Dec-2022 06:06:52 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 387
+[14-Dec-2022 06:07:00 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Collection/Cells.php on line 95
+[16-Feb-2023 21:36:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/chw-template.php on line 62 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/templates/chw-template.php(62): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[07-Apr-2023 19:41:44 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: Could not open file "ra-templates/ra_template.xlsx" for writing. in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php:125
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(539): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('ra-templates/ra...')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php(30): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('ra-templates/ra...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php on line 125
+[07-Apr-2023 21:38:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php on line 31
+[07-Apr-2023 21:39:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php on line 31
+[17-Apr-2023 10:24:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php on line 47 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php(47): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[17-Apr-2023 10:24:59 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php on line 47 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/templates/ra-template.php(47): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
