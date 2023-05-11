@@ -3,7 +3,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadshe
 include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
 echo 'hello world';
-exit;
+return;
 
 $regions = $_POST['region'];
 $country = $regions[1];
