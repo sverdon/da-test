@@ -1,0 +1,5 @@
+[16-May-2022 20:50:18 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/customer/www/dash-delagua.com/public_html/da-forms/delivery-notes/outbound-trucks.php on line 161
+[16-May-2022 20:54:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printr() in /home/customer/www/dash-delagua.com/public_html/da-forms/delivery-notes/outbound-trucks.php:92
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/delivery-notes/outbound-trucks.php on line 92

@@ -1,0 +1,286 @@
+[27-Apr-2022 19:41:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 4
+[27-Apr-2022 19:42:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 4
+[27-Apr-2022 19:42:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/dash-delagua.com/public_htmlda-forms/xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 4
+[27-Apr-2022 19:42:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 4
+[27-Apr-2022 19:44:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 4
+[27-Apr-2022 19:55:27 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Reader\BaseReader::load() must be of the type string, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 15 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php:161
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(15): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load(NULL)
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php on line 161
+[27-Apr-2022 19:59:26 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Reader\BaseReader::load() must be of the type string, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 15 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php:161
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(15): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load(NULL)
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php on line 161
+[27-Apr-2022 20:01:19 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Reader\BaseReader::load() must be of the type string, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 15 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php:161
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(15): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load(NULL)
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php on line 161
+[27-Apr-2022 20:02:44 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Reader\BaseReader::load() must be of the type string, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 15 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php:161
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(15): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load(NULL)
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php on line 161
+[28-Apr-2022 14:37:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:44:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:45:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:45:49 UTC] PHP Fatal error:  require(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:46:00 UTC] PHP Fatal error:  require(): Failed opening required '/xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:46:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:53:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'xlsxDecrpyt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 7
+[28-Apr-2022 14:54:33 UTC] PHP Fatal error:  require_once(): Failed opening required '/xlsxDecrypt/PHPDecryptXLSXWithPassword.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 5
+[28-Apr-2022 14:54:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:./lib:./include/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 6
+[28-Apr-2022 14:55:37 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(13): decrypt(NULL, 'S(*&WE#WE465', '/unlocked/file1...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 14:57:09 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(13): decrypt('/tmp/phpgy9wfN', 'S(*&WE#WE465', '/unlocked/file1...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:03:43 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(16): decrypt('/tmp/phpqOOhrk', 'S(*&WE#WE465', '/unlocked/file1...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:05:30 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('/locked/TRUCK 1...', 'S(*&WE#WE465', '/unlocked/file1...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:06:50 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 1 ...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:07:36 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 1 ...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:08:37 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 1 ...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:09:26 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 1 ...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:13:20 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK-1-...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:13:46 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:31
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(31): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK-1-...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 31
+[28-Apr-2022 15:27:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:./lib:./include/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 6
+[28-Apr-2022 15:27:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:/lib:/include/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 6
+[28-Apr-2022 15:28:10 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 2 ...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:39:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 6
+[28-Apr-2022 15:39:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 7
+[28-Apr-2022 15:40:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 7
+[28-Apr-2022 15:41:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'lib/PEAR.php' (include_path='.:/usr/local/php74/pear:/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/lib/OLE.php on line 34
+[28-Apr-2022 15:42:09 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:31
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(31): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('/tmp/php9li9up', 'S(*&WE#WE465', 'file1651160529....')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 31
+[28-Apr-2022 15:44:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:./lib:./include/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 7
+[28-Apr-2022 15:46:03 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:31
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(31): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('/tmp/phpdQL1kB', 'S(*&WE#WE465', 'file1651160763....')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 31
+[28-Apr-2022 15:46:49 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:31
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(31): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('/tmp/phpTKM0CZ', 'S(*&WE#WE465', 'file1651160809....')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 31
+[28-Apr-2022 15:47:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'lib/OLE/PPS/Root.php' (include_path='.:/usr/local/php74/pear:./xlsxDecrypt/lib:./include/xlsxDecrypt/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/lib/OLE.php on line 341
+[28-Apr-2022 15:48:42 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: Could not find zip member zip://file1651160922.xlsx#_rels/.rels in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:159
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('file1651160922....', '_rels/.rels')
+#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('file1651160922....')
+#2 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(21): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('file1651160922....')
+#3 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 159
+[28-Apr-2022 15:49:06 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('/tmp/php97hMH8', 'S(*&WE#WE465', 'file1651160946....')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:49:12 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('/tmp/phpH53Va7', 'S(*&WE#WE465', 'file1651160952....')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:49:19 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: Could not find zip member zip://file1651160959.xlsx#_rels/.rels in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:159
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('file1651160959....', '_rels/.rels')
+#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('file1651160959....')
+#2 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(21): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('file1651160959....')
+#3 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 159
+[28-Apr-2022 15:49:44 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 1 ...', 'S(*&WE#WE465', 'file1651160985....')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:51:15 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK-1-...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:51:20 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: Could not find zip member zip://unlocked/file1651161080.xlsx#_rels/.rels in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:159
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('unlocked/file16...', '_rels/.rels')
+#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('unlocked/file16...')
+#2 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(21): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('unlocked/file16...')
+#3 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 159
+[28-Apr-2022 15:53:55 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php:30
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php(30): SimpleXMLElement->__construct('')
+#1 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(18): decrypt('locked/TRUCK 1 ...', 'S(*&WE#WE465', 'unlocked/file16...')
+#2 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 30
+[28-Apr-2022 15:54:08 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: Could not find zip member zip://unlocked/file1651161247.xlsx#_rels/.rels in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:159
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('unlocked/file16...', '_rels/.rels')
+#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('unlocked/file16...')
+#2 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(23): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('unlocked/file16...')
+#3 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 159
+[28-Apr-2022 15:54:35 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: Could not find zip member zip://unlocked/file1651161274.xlsx#_rels/.rels in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:159
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('unlocked/file16...', '_rels/.rels')
+#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('unlocked/file16...')
+#2 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(23): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('unlocked/file16...')
+#3 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 159
+[28-Apr-2022 15:56:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Reader\BaseReader::load() must be of the type string, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 23 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php:161
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(23): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load(NULL)
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php on line 161
+[28-Apr-2022 16:27:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getColumn() in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 26
+[28-Apr-2022 16:27:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getColumn() in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 26
+[28-Apr-2022 16:43:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getHighestRow() on null in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 25
+[28-Apr-2022 16:43:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function push() in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 30
+[28-Apr-2022 16:50:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function push() in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 31
+[28-Apr-2022 17:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function push() in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 38
+[28-Apr-2022 17:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function push() in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 38
+[28-Apr-2022 17:17:49 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 45
+[28-Apr-2022 17:26:18 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ']' in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 15
+[28-Apr-2022 17:27:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php on line 16
+[28-Apr-2022 17:32:37 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: File "" does not exist. in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:149
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('')
+#2 /home/customer/www/dash-delagua.com/public_html/da-forms/upload-barcode.php(8): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('')
+#3 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149
+[06-May-2022 15:40:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 4
+[06-May-2022 15:41:05 UTC] PHP Fatal error:  Uncaught Error: Class 'TCPDF' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 5
+[06-May-2022 15:46:28 UTC] PHP Fatal error:  Uncaught Error: Class 'TCPDF' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 5
+[06-May-2022 15:49:49 UTC] PHP Fatal error:  Uncaught Error: Class 'TCPDF' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 5
+[06-May-2022 15:52:01 UTC] PHP Fatal error:  Uncaught Error: Class 'TCPDF' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 53
+[06-May-2022 16:09:05 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Writer\Pdf\Tcpdf::__construct() must be an instance of PhpOffice\PhpSpreadsheet\Spreadsheet, string given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 53 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Pdf/Tcpdf.php:16
+Stack trace:
+#0 /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php(53): PhpOffice\PhpSpreadsheet\Writer\Pdf\Tcpdf->__construct('hello world')
+#1 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Pdf/Tcpdf.php on line 16
+[06-May-2022 16:16:33 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/dash-delagua.com/public_html/da-forms/vendor/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 52
+[06-May-2022 16:16:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Mpdf\Mpdf' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 54
+[06-May-2022 16:31:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Html2Pdf' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 54
+[06-May-2022 16:32:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 56
+[06-May-2022 16:32:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 56
+[06-May-2022 16:32:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 56
+[06-May-2022 17:43:57 UTC] PHP Parse error:  syntax error, unexpected '$html' (T_VARIABLE) in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 89
+[06-May-2022 17:44:14 UTC] PHP Parse error:  syntax error, unexpected '$html' (T_VARIABLE) in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 89
+[06-May-2022 17:45:05 UTC] PHP Parse error:  syntax error, unexpected '$p2' (T_VARIABLE) in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 89
+[06-May-2022 17:45:48 UTC] PHP Parse error:  syntax error, unexpected '$p2' (T_VARIABLE) in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 89
+[09-May-2022 20:12:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function SetAuthor() on null in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/outbound-trucks.php on line 60
+[28-Jul-2022 17:00:01 UTC] PHP Fatal error:  require(): Failed opening required '1/db_conn.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/dash-delagua.com/public_html/da-forms/worldapp-sync/combined.php on line 6

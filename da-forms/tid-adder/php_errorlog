@@ -1,0 +1,8 @@
+[13-Apr-2023 15:27:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/customer/www/dash-delagua.com/public_html/da-forms/tid-adder/select-warehouse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/tid-adder/select-warehouse.php on line 26
+[13-Apr-2023 18:59:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/customer/www/dash-delagua.com/public_html/da-forms/tid-adder/select-warehouse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/tid-adder/select-warehouse.php on line 26
