@@ -1,9 +1,8 @@
 <?php 
-
-die('hello world');
-
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
+
+die('hello world');
 
 $regions = $_POST['region'];
 $country = $regions[1];
