@@ -7,8 +7,6 @@ $regions = $_POST['region'];
 $country = $regions[1];
 $parentID = end($regions);
 
-print_r($regions);
-
 // Get Final Sub-Regions
 $sql = "SELECT GID, RegionName AS Location
         FROM g_Locations
@@ -41,6 +39,8 @@ foreach($regions as $region){
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
 $filepath = 'chw-templates/' . $filename;
+
+die($filepath);
 
 // Load Template
 $template = 'Team_Member_Adder_CHW.xlsx';
