@@ -26,5 +26,5 @@ $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
 $writer->save($filepath);
 
-$url = 'https://dash-delagua.com/da-forms/templates/' . $filepath;
+$url = 'https://insight.delagua.org/da-forms/templates/' . $filepath;
 echo json_encode($url);

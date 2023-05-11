@@ -1,2 +1,2 @@
 [28-Apr-2022 15:29:02 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /usr/local/php74/pear/System.php on line 268
-[28-Apr-2022 15:34:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:/lib') in /home/customer/www/dash-delagua.com/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 7
+[28-Apr-2022 15:34:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'OLE.php' (include_path='.:/usr/local/php74/pear:/lib') in /home/customer/www/insight.delagua.org/public_html/da-forms/xlsxDecrypt/PHPDecryptXLSXWithPassword.php on line 7

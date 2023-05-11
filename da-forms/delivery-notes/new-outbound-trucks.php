@@ -113,7 +113,7 @@ $pdf->SetPrintHeader(false);
 // Page 1
 $pdf->AddPage();
 
-$html = '<img src="https://dash-delagua.com/wp-content/uploads/2022/05/DelAgua_Logo_50.png">';
+$html = '<img src="https://insight.delagua.org/wp-content/uploads/2022/05/DelAgua_Logo_50.png">';
 $html .= "<p>Trip Number: $tripid</p>";
 $html .= "<p>Truck Type: Fuso</p>";
 $html .= "<table>
@@ -153,7 +153,7 @@ if($pdfType === 'scanning'){
 // Page 2
 $pdf->AddPage();
 
-$html = '<img src="https://dash-delagua.com/wp-content/uploads/2022/05/DelAgua_Logo_50.png"><br>';
+$html = '<img src="https://insight.delagua.org/wp-content/uploads/2022/05/DelAgua_Logo_50.png"><br>';
 $html .= 'DELAGUA<br>';
 $html .= 'OUTBOUND DELIVERY NOTE<br>';
 $html .= 'Trip Number: ' . $tripid;
@@ -258,7 +258,7 @@ for($i=0; $i<$numTrips; $i++){
     $pdf->AddPage();
 
     // Write HTML
-    $html = '<img src="https://dash-delagua.com/wp-content/uploads/2022/05/DelAgua_Logo_50.png">';
+    $html = '<img src="https://insight.delagua.org/wp-content/uploads/2022/05/DelAgua_Logo_50.png">';
     $html .= '<p>DELAGUA</p>';
     $html .= "Truck Trip #: $tripid";
     $html .= '<p>DESTINATION DELIVERY NOTE</p>';

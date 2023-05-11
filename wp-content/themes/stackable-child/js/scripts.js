@@ -144,11 +144,11 @@ jQuery(document).ready(function($){
             
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/delivery-notes/outbound-trucks.php',
+            url: 'https://insight.delagua.org/da-forms/delivery-notes/outbound-trucks.php',
             data: {'truckID':$truckID, 'pdfType':$pdfType},
             success: function(data) {   
                 console.log(data);
-                window.open('https://dash-delagua.com/da-forms/delivery-notes/outbound_scanning_form.pdf?' + Math.random());
+                window.open('https://insight.delagua.org/da-forms/delivery-notes/outbound_scanning_form.pdf?' + Math.random());
             }, error:function(error){
                 console.log(error);
                 alert("Error: " + error.responseText);
@@ -171,11 +171,11 @@ jQuery(document).ready(function($){
             
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/delivery-notes/new-outbound-trucks.php',
+            url: 'https://insight.delagua.org/da-forms/delivery-notes/new-outbound-trucks.php',
             data: {'truckID':$truckID, 'pdfType':$pdfType},
             success: function(data) {   
                 console.log(data);
-                window.open('https://dash-delagua.com/da-forms/delivery-notes/outbound_scanning_form.pdf?' + Math.random());
+                window.open('https://insight.delagua.org/da-forms/delivery-notes/outbound_scanning_form.pdf?' + Math.random());
             }, error:function(error){
                 console.log(error);
                 alert("Error: " + error.responseText);
@@ -193,7 +193,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/delivery-notes/generate-table.php',
+            url: 'https://insight.delagua.org/da-forms/delivery-notes/generate-table.php',
             data: {'truckID':$truckID},
             dataType: 'JSON',
             success: function(data) {
@@ -246,7 +246,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/delivery-notes/new-generate-table.php',
+            url: 'https://insight.delagua.org/da-forms/delivery-notes/new-generate-table.php',
             data: {'truckID':$truckID},
             dataType: 'JSON',
             success: function(data) {
@@ -425,7 +425,7 @@ jQuery(document).ready(function($){
         if($investorID && $productID){
             $.ajax({
                 type: "POST",
-                url: 'https://dash-delagua.com/da-forms/product-order/product-order.php',
+                url: 'https://insight.delagua.org/da-forms/product-order/product-order.php',
                 data: {'investorID':$investorID, 'productID':$productID},
                 dataType: 'JSON',
                 success: function(data) {
@@ -466,7 +466,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/product-order/calcStoves.php',
+            url: 'https://insight.delagua.org/da-forms/product-order/calcStoves.php',
             data: {'bcfid':$bcfid, 'stoves':$stoves},
             dataType: 'JSON',
             success: function(data) {
@@ -529,7 +529,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/templates/ra-subregions.php',
+            url: 'https://insight.delagua.org/da-forms/templates/ra-subregions.php',
             data: {'country':$country},
             dataType: 'JSON',
             success: function(data) {
@@ -561,7 +561,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/templates/chw-regions.php',
+            url: 'https://insight.delagua.org/da-forms/templates/chw-regions.php',
             data: {'country':$country},
             dataType: 'JSON',
             success: function(data) {
@@ -639,12 +639,12 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/activity-schedule/export-table.php',
+            url: 'https://insight.delagua.org/da-forms/activity-schedule/export-table.php',
             data: {'headers':$headers, 'tableData':$tableData, 'teamIDs':$teamIDs},
             dataType: 'JSON',
             success: function(data) {
                 console.log(data);
-                window.open('https://dash-delagua.com/da-forms/activity-schedule/' + data + '?' + Math.random());
+                window.open('https://insight.delagua.org/da-forms/activity-schedule/' + data + '?' + Math.random());
             }, error:function(error){
                 console.log(error);
                 alert("Error: " + error.responseText);
@@ -663,7 +663,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/beneficiary-adder/bennie-uploads.php',
+            url: 'https://insight.delagua.org/da-forms/beneficiary-adder/bennie-uploads.php',
             data: {'bluid':$bluid, 'status':$status, 'filename':$filename},
             success: function(data) {
                 console.log(data);
@@ -730,7 +730,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/tid-adder/select-warehouse.php',
+            url: 'https://insight.delagua.org/da-forms/tid-adder/select-warehouse.php',
             data: {'central':$central, 'country':$country, 'gid':$gid},
             dataType: 'JSON',
             success: function(data) {
@@ -835,7 +835,7 @@ jQuery(document).ready(function($){
                 // Get Distribution Region
                 $.ajax({
                     type: "POST",
-                    url: 'https://dash-delagua.com/da-forms/activity-schedule/get-distrregion.php',
+                    url: 'https://insight.delagua.org/da-forms/activity-schedule/get-distrregion.php',
                     data: {'country':$parentID},
                     dataType: 'JSON',
                     success: function(data){
@@ -847,7 +847,7 @@ jQuery(document).ready(function($){
                     // Get Team IDs
                     $.ajax({
                         type: "POST",
-                        url: 'https://dash-delagua.com/da-forms/activity-schedule/get-teamids.php',
+                        url: 'https://insight.delagua.org/da-forms/activity-schedule/get-teamids.php',
                         data: {'country':$parentID},
                         dataType: 'JSON',
                         success: function(data){
@@ -883,7 +883,7 @@ jQuery(document).ready(function($){
 
         $.ajax({
             type: "POST",
-            url: 'https://dash-delagua.com/da-forms/beneficiary-adder/get-subregions.php',
+            url: 'https://insight.delagua.org/da-forms/beneficiary-adder/get-subregions.php',
             data: {'parentID':$parentID},
             dataType: 'JSON',
             async: false,

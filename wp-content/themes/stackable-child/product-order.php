@@ -23,7 +23,7 @@ get_header(); ?>
                 <div class="entry-content">
                     <?php the_content(); ?>
 
-                    <form action="https://dash-delagua.com/da-forms/product-order/submit.php" method="POST" class="da-form standard" id="product-order">
+                    <form action="https://insight.delagua.org/da-forms/product-order/submit.php" method="POST" class="da-form standard" id="product-order">
                         <div class="da-form-item">
                             <label for="investors">Select Investor</label>
                             <select name="investors" id="investors">

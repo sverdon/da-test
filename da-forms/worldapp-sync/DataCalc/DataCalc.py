@@ -20,7 +20,7 @@ database = 'dbthezxpnokgxv' #'testdb'
 
 if __name__ == "__main__":
 
-    list_of_files = glob.iglob('/home/customer/www/dash-delagua.com/public_html/da-forms/worldapp-sync/DataCalc/*.csv') 
+    list_of_files = glob.iglob('/home/customer/www/insight.delagua.org/public_html/da-forms/worldapp-sync/DataCalc/*.csv') 
     oldest_file = min(list_of_files, key=os.path.getctime)
     print(os.path.basename(oldest_file))
 

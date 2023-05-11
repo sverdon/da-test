@@ -73,5 +73,5 @@ if($hideCategory == 1) {
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
 $writer->save($filepath);
 
-$url = 'https://dash-delagua.com/da-forms/beneficiary-adder/' . $filepath;
+$url = 'https://insight.delagua.org/da-forms/beneficiary-adder/' . $filepath;
 echo json_encode($url);

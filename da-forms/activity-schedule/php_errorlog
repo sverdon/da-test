@@ -1,60 +1,60 @@
-[15-Dec-2022 22:39:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fromArray() on null in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php:12
+[15-Dec-2022 22:39:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fromArray() on null in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php:12
 Stack trace:
 #0 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 12
-[15-Dec-2022 22:41:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fromArray() on null in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php:12
+  thrown in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 12
+[15-Dec-2022 22:41:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fromArray() on null in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php:12
 Stack trace:
 #0 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 12
-[16-Dec-2022 00:54:08 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 14 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 12
+[16-Dec-2022 00:54:08 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 14 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(14): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(14): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
-[23-Dec-2022 21:01:27 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Your requested sheet index: Schedule is out of bounds. The actual number of sheets is 2. in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php:687
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[23-Dec-2022 21:01:27 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Your requested sheet index: Schedule is out of bounds. The actual number of sheets is 2. in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php:687
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/upload-schedule.php(16): PhpOffice\PhpSpreadsheet\Spreadsheet->getSheet('Schedule')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/upload-schedule.php(16): PhpOffice\PhpSpreadsheet\Spreadsheet->getSheet('Schedule')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 687
-[23-Dec-2022 21:03:26 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: File "" does not exist. in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:149
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 687
+[23-Dec-2022 21:03:26 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: File "" does not exist. in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:149
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
-#1 /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('')
-#2 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/upload-schedule.php(15): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('')
+#0 /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('')
+#2 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/upload-schedule.php(15): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('')
 #3 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149
-[23-Dec-2022 21:03:38 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Your requested sheet index: Schedule is out of bounds. The actual number of sheets is 2. in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php:687
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149
+[23-Dec-2022 21:03:38 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Your requested sheet index: Schedule is out of bounds. The actual number of sheets is 2. in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php:687
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/upload-schedule.php(16): PhpOffice\PhpSpreadsheet\Spreadsheet->getSheet('Schedule')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/upload-schedule.php(16): PhpOffice\PhpSpreadsheet\Spreadsheet->getSheet('Schedule')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 687
-[04-Jan-2023 06:18:38 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 687
+[04-Jan-2023 06:18:38 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
-[04-Jan-2023 07:12:14 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[04-Jan-2023 07:12:14 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
-[04-Jan-2023 07:17:06 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[04-Jan-2023 07:17:06 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
-[04-Jan-2023 07:22:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 36 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[04-Jan-2023 07:22:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 36 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(36): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(36): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A2')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
-[17-Feb-2023 09:32:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[17-Feb-2023 09:32:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
-[20-Feb-2023 13:00:09 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+[20-Feb-2023 13:00:09 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray() must be of the type array, null given, called in /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php on line 27 and defined in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:2750
 Stack trace:
-#0 /home/customer/www/dash-delagua.com/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
+#0 /home/customer/www/insight.delagua.org/public_html/da-forms/activity-schedule/export-table.php(27): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(NULL, NULL, 'A1')
 #1 {main}
-  thrown in /home/customer/www/dash-delagua.com/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
+  thrown in /home/customer/www/insight.delagua.org/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 2750
