@@ -2,9 +2,6 @@
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
-echo json_encode('hello');
-exit;
-
 $regions = $_POST['region'];
 $country = $regions[1];
 $parentID = end($regions);
@@ -46,6 +43,9 @@ $filepath = 'chw-templates/' . $filename;
 $template = 'Team_Member_Adder_CHW.xlsx';
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 $spreadsheet = $reader->load($template);
+
+echo json_encode('hello');
+exit;
 
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
