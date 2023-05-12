@@ -46,7 +46,7 @@ $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
 $filepath = 'chw-templates/' . $filename;
 
 // Load Template
-$template = 'chw_template.xlsx';
+$template = 'NEW-Team_Member_Adder_CHW.xlsx';
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 $spreadsheet = $reader->load($template);
 
