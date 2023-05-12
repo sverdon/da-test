@@ -43,12 +43,10 @@ foreach($regions as $region){
 }
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
-echo $filename;
-exit;
 $filepath = 'chw-templates/' . $filename;
 
 // Load Template
-$template = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/Team_Member_Adder_CHW.xlsx';
+$template = 'Team_Member_Adder_CHW.xlsx';
 $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($template);
 
 // Write country GID
