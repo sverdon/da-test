@@ -46,7 +46,7 @@ $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
 $filepath = 'chw-templates/' . $filename;
 
 // Load Template
-$template = 'Team_Member_Adder_Staff.xlsx';
+$template = 'chw_template.xlsx';
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 $spreadsheet = $reader->load($template);
 
@@ -54,7 +54,7 @@ $spreadsheet = $reader->load($template);
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
 
 // Write values to 'Lookups' sheet
-$spreadsheet->getSheet(1)->fromArray($locations, NULL, 'A2');
+$spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
 
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
