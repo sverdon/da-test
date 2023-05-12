@@ -39,7 +39,7 @@ $hideCategory = 0;
 foreach($regions as $region){
     $sql = "SELECT RegionName, RegionType
             FROM g_Locations
-            WHERE GID = $region";
+            WHERE GID = '$region'";
 
     $result = mysqli_query($conn_da, $sql);
 
