@@ -53,11 +53,10 @@ $spreadsheet = $reader->load($template);
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
 
-echo json_encode($locations);
-exit;
-
 // Write values to 'Lookups' sheet
 $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
+
+exit;
 
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
