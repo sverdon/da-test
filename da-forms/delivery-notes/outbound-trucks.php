@@ -234,6 +234,8 @@ $html .= '<img style="text-align: center;" src="https://quickchart.io/qr?text=' 
 
 $pdf->writeHTML($html, true, 0, true, 0);
 
+$destinations = array();
+
 // Create Destination Delivery Note for each record returned
 for($i=0; $i<$numTrips; $i++){
 
