@@ -1,7 +1,7 @@
 <?php 
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
-include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
+require $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
 $country = $_POST['country'];
 $boundary = $_POST['boundary'];
