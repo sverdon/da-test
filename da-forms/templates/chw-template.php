@@ -57,7 +57,7 @@ $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
 
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
-$writer->save('testing.xlsx');
+$writer->save($filepath);
 
 $url = 'https://insight.delagua.org/da-forms/templates/' . $filepath;
 echo json_encode($url);
