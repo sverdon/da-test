@@ -47,7 +47,7 @@ $filepath = 'chw-templates/' . $filename;
 
 // Load Template
 $template = 'Team_Member_Adder_CHW.xlsx';
-$spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($template);
+$spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($template) or die('unable to load sheet');
 
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
