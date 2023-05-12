@@ -43,7 +43,7 @@ foreach($regions as $region){
 }
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
-$filepath = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/chw-templates/' . $filename;
+$filepath = 'chw-templates/' . $filename;
 
 // Load Template
 $template = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/Team_Member_Adder_CHW.xlsx';
