@@ -129,6 +129,9 @@ jQuery(document).ready(function($){
         $('#popup-overlay, .popup').removeClass('show');
     });
 
+    // Region Select - Default Option Value
+    $('div.region-clone.hidden option').attr('value', 'NULL');
+
     // DELIVERY NOTES
     // Generate PDF
     $('.page-id-72 a.generate-pdf ').click(function(e){

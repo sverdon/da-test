@@ -33,7 +33,7 @@ get_header(); ?>
                             <div class="da-form-item region region-clone hidden">
                                 <label for="region"></label>
                                 <select name="region[]">
-                                    <option value="NULL">Please Select</option>
+                                    <option value="">Please Select</option>
                                 </select>
                             </div>
                             <div class="da-form-item region">
