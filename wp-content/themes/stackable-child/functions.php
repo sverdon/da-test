@@ -54,8 +54,7 @@ add_filter( 'login_headertitle', 'wpb_login_logo_url_title' );
 // Require Login If Parent Page Is Dashboard
 add_action( 'template_redirect', function() {
     global $post;
-    print_r($post);
-    
+
     if(!is_user_logged_in() && (39 == $post->post_parent)) {
         wp_safe_redirect(wp_login_url(get_permalink()));
         exit();
