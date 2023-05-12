@@ -56,10 +56,9 @@ $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
 // Write values to 'Lookups' sheet
 $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
 
-exit;
-
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
+exit;
 $writer->save($filepath);
 
 $url = 'https://insight.delagua.org/da-forms/templates/' . $filepath;
