@@ -1,6 +1,6 @@
 <?php 
 
-set_time_limit(60);
+set_time_limit(30);
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 require $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
