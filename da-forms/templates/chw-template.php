@@ -43,11 +43,10 @@ foreach($regions as $region){
 }
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
-// $filepath = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/chw-templates/' . $filename;
-$filepath = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/chw-templates/testing.xlsx';
+$filepath = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/chw-templates/' . $filename;
 
 // Load Template
-$template = 'Team_Member_Adder_CHW.xlsx';
+$template = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/templates/Team_Member_Adder_CHW.xlsx';
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 $spreadsheet = $reader->load($template);
 
