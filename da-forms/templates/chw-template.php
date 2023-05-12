@@ -53,6 +53,7 @@ $spreadsheet = $reader->load($template);
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
 
+echo json_encode($locations);
 exit;
 
 // Write values to 'Lookups' sheet
