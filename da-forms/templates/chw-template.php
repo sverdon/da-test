@@ -53,6 +53,9 @@ $spreadsheet = $reader->load($template);
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
 
+// Write values to 'Lookups' sheet
+// $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
+
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
 $writer->save($filepath);
