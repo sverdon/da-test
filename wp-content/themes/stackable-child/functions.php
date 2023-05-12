@@ -1,6 +1,4 @@
 <?php
-global $post;
-print_r($post);
 $theme = wp_get_theme();
 define('THEME_VERSION', $theme->Version);
 
@@ -54,11 +52,12 @@ function wpb_login_logo_url_title() {
 add_filter( 'login_headertitle', 'wpb_login_logo_url_title' );
 
 // Require Login If Parent Page Is Dashboard
-add_action( 'template_redirect',
-    function($post) {
-    	 if(!is_user_logged_in() && (39 == $post->post_parent)) {
-            wp_safe_redirect(wp_login_url(get_permalink()));
-            exit();
-        }
+add_action( 'template_redirect', function() {
+    global $post;
+    print_r($post);
+    
+    if(!is_user_logged_in() && (39 == $post->post_parent)) {
+        wp_safe_redirect(wp_login_url(get_permalink()));
+        exit();
     }
-);
+});
