@@ -24,10 +24,10 @@ while($row = mysqli_fetch_assoc($result)) {
 // Get Filename from IDs
 $filename = '';
 
-print_r($regions);
-exit;
-
 foreach($regions as $region){
+    if(!$region){
+        continue;
+    }
     $sql = "SELECT RegionName
             FROM g_Locations
             WHERE GID = $region";
