@@ -24,6 +24,9 @@ while($row = mysqli_fetch_assoc($result)) {
     $locations[] = [$id, $location];
 }
 
+print_r($locations);
+exit;
+
 // Get Filename from IDs
 $filename = '';
 
