@@ -5,9 +5,6 @@ set_time_limit(30);
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 require $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
-echo $_SERVER['DOCUMENT_ROOT'];
-exit;
-
 $regions = $_POST['region'];
 $country = $regions[1];
 $parentID = end($regions);
@@ -46,7 +43,7 @@ foreach($regions as $region){
 }
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
-$filepath = '/da-forms/chw-templates/' . $filename;
+$filepath = $_SERVER['DOCUMENT_ROOT'] . '/da-forms/chw-templates/' . $filename;
 
 // Load Template
 $template = 'Team_Member_Adder_CHW.xlsx';
