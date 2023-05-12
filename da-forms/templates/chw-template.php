@@ -24,6 +24,9 @@ while($row = mysqli_fetch_assoc($result)) {
 // Get Filename from IDs
 $filename = '';
 
+print_r($regions);
+exit;
+
 foreach($regions as $region){
     $sql = "SELECT RegionName
             FROM g_Locations
