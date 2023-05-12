@@ -43,6 +43,8 @@ foreach($regions as $region){
 }
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
+echo $filename;
+exit;
 $filepath = 'chw-templates/' . $filename;
 
 // Load Template
