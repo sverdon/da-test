@@ -50,10 +50,10 @@ $template = 'Team_Member_Adder_CHW.xlsx';
 $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 $spreadsheet = $reader->load($template);
 
-exit;
-
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
+
+exit;
 
 // Write values to 'Lookups' sheet
 $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
