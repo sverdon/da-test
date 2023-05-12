@@ -51,7 +51,7 @@ $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($template) or die('unab
 
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
-$cell = $spreadsheet->getCell('AJ1')->getValue();
+$cell = $spreadsheet->getSheetByName('template')->getCell('AJ1')->getValue();
 
 echo $cell;
 exit;
