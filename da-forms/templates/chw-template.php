@@ -1,6 +1,6 @@
 <?php 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
-include $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
+require $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
 $regions = $_POST['region'];
 $country = $regions[1];
