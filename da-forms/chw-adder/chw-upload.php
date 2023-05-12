@@ -1,4 +1,6 @@
 <?php
+    set_time_limit(30);
+
     $file = $_FILES['file']['tmp_name'];
     $realFilename = $_FILES['file']['name'];
 
@@ -20,8 +22,6 @@
     // potential for serious time/memory saving here by using the native rowIterator instead of loading into array first
     $highestRow = $sheet->getHighestDataRow();
     $rows = $sheet->rangeToArray("B2:Y$highestRow", NULL, TRUE, TRUE, TRUE);
-
-    die('hello');
 
     // moved database connection beneath rangeToArray
     // rangeToArray was taking a long time and it timed out the database connection
