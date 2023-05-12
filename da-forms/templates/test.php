@@ -1,6 +1,6 @@
 <?php
 
-require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
+require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
@@ -10,4 +10,4 @@ $activeWorksheet = $spreadsheet->getActiveSheet();
 $activeWorksheet->setCellValue('A1', 'Hello World !');
 
 $writer = new Xlsx($spreadsheet);
-$writer->save($_SERVER['DOCUMENT_ROOT'] . '/da-forms/hello world.xlsx');
+$writer->save('hello world.xlsx');
