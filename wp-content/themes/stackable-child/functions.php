@@ -1,5 +1,6 @@
 <?php
 global $post;
+print_r($post);
 $theme = wp_get_theme();
 define('THEME_VERSION', $theme->Version);
 
