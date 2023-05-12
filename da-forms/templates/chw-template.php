@@ -5,6 +5,9 @@ set_time_limit(30);
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php'; // load phpspreadsheet
 require $_SERVER['DOCUMENT_ROOT'] . '/da-forms/dbconn.php'; // database
 
+echo $_SERVER['DOCUMENT_ROOT'];
+exit;
+
 $regions = $_POST['region'];
 $country = $regions[1];
 $parentID = end($regions);
@@ -43,7 +46,7 @@ foreach($regions as $region){
 }
 
 $filename = 'CHWAdder_' . rtrim($filename, '_') . '.xlsx';
-$filepath = 'chw-templates/' . $filename;
+$filepath = '/da-forms/chw-templates/' . $filename;
 
 // Load Template
 $template = 'Team_Member_Adder_CHW.xlsx';
@@ -59,8 +62,6 @@ $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
 $writer->save($filepath);
-
-exit;
 
 $url = 'https://insight.delagua.org/da-forms/templates/' . $filepath;
 echo json_encode($url);
