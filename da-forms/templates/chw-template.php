@@ -47,21 +47,17 @@ $filepath = 'chw-templates/' . $filename;
 
 // Load Template
 $template = 'Team_Member_Adder_CHW.xlsx';
-$spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($template) or die('unable to load sheet');
+$spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($template);
 
 // Write country GID
 $spreadsheet->getSheetByName('template')->setCellValue('AJ1', $country);
-$cell = $spreadsheet->getSheetByName('template')->getCell('AJ1')->getValue();
-
-echo $cell;
-exit;
 
 // Write values to 'Lookups' sheet
 $spreadsheet->getSheetByName('Lookups')->fromArray($locations, NULL, 'A2');
 
 // Save file
 $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, "Xlsx");
-$writer->save($filepath);
+$writer->save('testing.xlsx');
 
 $url = 'https://insight.delagua.org/da-forms/templates/' . $filepath;
 echo json_encode($url);
