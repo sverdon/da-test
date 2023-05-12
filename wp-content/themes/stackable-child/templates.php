@@ -64,7 +64,7 @@ get_header(); ?>
                 <!-- CHW Popup -->
                 <div class="popup hidden" id="chw-popup">
                     <div class="popup-wrapper">
-                        <form action="/da-forms/templates/chw-template.php" class="da-form return-url" id="chw-popup-form">
+                        <form action="/da-forms/templates/test.php" class="da-form return-url" id="chw-popup-form">
                             <input type="hidden" name="workregion-chw">
                             <input type="hidden" name="template-url">
                             <div class="da-form-item region region-clone hidden">
